@@ -1,6 +1,7 @@
 # Offshore-turtle-data---Rushikulya
 Transect and Spatial data - offshore surveys from 2012 to 2022 in Rushikulya
-Title: Distribution patterns of nearshore aggregations of olive ridley turtles (Lepidochelys olivacea) in Rushikulya, Odisha, India: implications for spatial management measures
+
+Title: Distribution patterns of nearshore aggregations of olive ridley turtles (Lepidochelys olivacea) in Rushikulya, Odisha, India: implications for spatial management measures. Aquatic Conservation (in press). 
 
 Authors: Chetan Rao, Chandana Pusapati, Muralidharan Manoharakrishnan, Nupur Kale, Alissa Barnes, and Kartik Shanker. 
 
