@@ -1,5 +1,4 @@
-#Masterfile from Rao et al_2023. For more details on data formats, refer to Miller et al. (2019)
-data<- read.csv("data.csv")
+data<- read.csv("Desktop/For turtle paper/Distance analysis /data.csv")
 head(data, n=2)
 tail(data,n=2)
 summary(data$distance)

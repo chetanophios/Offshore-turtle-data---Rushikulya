@@ -12,10 +12,10 @@ library(dplyr)
 library(maps)
 library(forcats)
 
-#read data. Mastersheet from Rao et al_2023_spatial.csv; Modify code as per pathname
-turtlesdec <- read.csv("data.csv", stringsAsFactors = FALSE)
-turtlesjan<-read.csv("data.csv", stringsAsFactors = FALSE)
-turtlesfeb<-read.csv("data.csv", stringsAsFactors = FALSE)
+#read data. Mastersheet from Rao et al_2023_spatial.csv
+turtlesdec <- read.csv("~/Desktop/Turtle paper/Data/Spatial data/Map files/CSV files/data.csv", stringsAsFactors = FALSE)
+turtlesjan<-read.csv("~/Desktop/Turtle paper/Data/Spatial data/Map files/CSV files/data.csv", stringsAsFactors = FALSE)
+turtlesfeb<-read.csv("~/Desktop/Turtle paper/Data/Spatial data/Map files/CSV files/data.csv", stringsAsFactors = FALSE)
 
 #set coordinates from point file and define projections
 turtles.sp<-turtlesdec[,c ("Sight.Lon", "Sight.Lat")]
@@ -67,8 +67,6 @@ feb100<-mcp(mydata.spdf3, percent=100, unin = "m", unout = "km2")
 feb75<-mcp(mydata.spdf3, percent=75, unin = "m", unout = "km2")
 feb50<-mcp(mydata.spdf3, percent=50, unin = "m", unout = "km2")
 
-
-#exporting MCP 
 writeOGR(feb50, dsn = ".", layer = "turtlesfeb2022test_All_50_MCP", driver="ESRI Shapefile") 
 writeOGR(feb75, dsn = ".", layer = "turtlesfeb2022test_All_75_MCP", driver="ESRI Shapefile") 
 writeOGR(feb100, dsn = ".", layer = "turtlesfeb2022test_All_100_MCP", driver="ESRI Shapefile") 
