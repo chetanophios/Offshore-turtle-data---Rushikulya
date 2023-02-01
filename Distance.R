@@ -1,4 +1,5 @@
-#Masterfile from Rao et al_2023. For more details on data formats, refer to Miller et al. (2019)
+#Masterfile from Rao et al_2023_transects.csv 
+#For more details on data formats, refer to Miller et al. (2019)
 data<- read.csv("data.csv")
 head(data, n=2)
 tail(data,n=2)
