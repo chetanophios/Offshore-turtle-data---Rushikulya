@@ -21,7 +21,7 @@ Notes:
 
 Data is in CSV format and can be viewed in Microsoft Excel, R and R Studio. The following R packages were used for analysis: ‘Distance’ by Miller et al. (2019) and ‘adehabitat’ by Calenge (2006). 
 
-Information on code can be found in the following sources listed :
+Codes are provided above. Additional information on code can be found in the following sources listed :
 
 A) 'Distance' by Miller et al. 2019
 
